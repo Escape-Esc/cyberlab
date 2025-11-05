@@ -1,0 +1,108 @@
+/* === Umum === */
+body {
+  background: linear-gradient(135deg, #6c63ff, #f8f7f7);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* === Kartu Profil === */
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 320px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(108, 99, 255, 0.3);
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #6c63ff;
+}
+
+.name {
+  font-size: 24px;
+  color: #2c3e50;
+  margin: 10px 0 5px;
+}
+
+.title {
+  color: #6c63ff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc {
+  color: #555;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.quotable {
+  display: block;
+  margin: 15px 0;
+  font-style: italic;
+  color: #777;
+}
+
+/* === Bagian MBTI === */
+.mbti {
+  background: #f9f9ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 13.5px;
+  color: #333;
+  text-align: left;
+  box-shadow: inset 0 0 10px rgba(108, 99, 255, 0.1);
+}
+
+.mbti h3 {
+  color: #6c63ff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.mbti-img {
+  display: block;
+  width: 100px;
+  margin: 0 auto 10px;
+}
+
+.mbti-pass {
+  background: #eef1ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* === Tombol === */
+.btn {
+  background: linear-gradient(90deg,#1582ff);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #5b54e6, #ff5169);
+  transform: scale(1.05);
+}
